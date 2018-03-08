@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-FROM tomcat:8.0
+FROM tomcat
 MAINTAINER Proxytem Software Services pvt.ltd
 RUN apt-get update
 RUN apt-get install -y vim
